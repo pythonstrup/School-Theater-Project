@@ -13,8 +13,18 @@ public class UserController {
 
 	private final UserService userService;
 	
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String home() {
 		return "basic/home";
+	}
+	
+	@GetMapping("/theater") 
+	public String theater() {
+		return "basic/theater";
+	}
+	
+	@GetMapping("/user/reservation")
+	public String reservation() {
+		return "user/reservation";
 	}
 }

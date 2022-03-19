@@ -3,7 +3,7 @@
     
 <%@ include file="../layout/header.jsp"%>
 
-<h1>Hello Homepage</h1>
+<h1>Reservation</h1>
 
 
 <%@ include file="../layout/footer.jsp"%>
