@@ -22,14 +22,14 @@ public class User {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(length=16, unique=true)
+	@Column(length=20, unique=true)
 	private String username;
 	
-	@Column(length=16, nullable=false)
+	@Column(nullable=false)
 	private String password;
 	
 	@Column(nullable=false)
 	private String email;
 	
-	private String role;
+	private String role; // 권한
 }
